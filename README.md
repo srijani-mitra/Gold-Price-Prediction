@@ -15,5 +15,13 @@ This project focuses on building a machine learning model to predict the price o
     *   Mean Squared Error (MSE) to measure the average squared prediction error.
 7.  **Visualization:** Plotted the actual gold prices against the predicted gold prices to visually compare the model's performance.
 
-This project demonstrates a basic workflow for building and evaluating a regression model for financial time series data.
+**Project Highlights**
 
+1. Analyzed strong correlations between financial indicators, identifying a strong positive correlation (~0.87) between GLD (Gold ETF) and SLV (Silver ETF).
+2. Developed a Random Forest Regression model to predict GLD prices based on financial indicators.
+3. Achieved high model performance with R² ≈ 0.99, demonstrating excellent fit.
+4. Demonstrated strong predictive accuracy with:
+   Mean Absolute Error (MAE) ≈ 1.30
+   Mean Squared Error (MSE) ≈ 5.39
+   
+This project demonstrates a basic workflow for building and evaluating a regression model for financial time series data.
